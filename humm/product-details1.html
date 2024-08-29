@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="product-details.css">
+</head>
+
+<body>
+    <div class="small-container single-product">
+        <div class="row">
+            <div class="col-2">
+                <img src="images/a1.png" alt="" width="100%" id="ProductImg">
+
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="images/a1.png" alt="" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/a1.png" alt="" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/a1.png" alt="" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/a1.png" alt="" width="100%" class="small-img">
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <p>home / T-shirt</p>
+                <h1>red printed blz</h1>
+                <h4>50.00</h4>
+                <select>
+                    <option> select sise</option>
+                    <option> select sise</option>
+                    <option> select sise</option>
+                    <option> select sise</option>
+                    <option> select sise</option>
+
+                </select>
+                <input type="number" value="1">
+                <a href="" class="btn">Add to Cart</a>
+                <h3>product-details <i class="fa fa-indent"></i></h3>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit eius iusto a vel ipsa nobis voluptates
+                    unde maiores consequatur eligendi sint, vitae, eum minima deleniti ratione consequuntur incidunt
+                    quaerat doloremque!</p>
+            </div>
+        </div>
+    </div>
+
+<script>
+    let ProductImg = document.getElementById("ProductImg");
+    let SmallImg = document.getElementById("small-img")
+
+    SmallImg[0].onclick = function(){
+        ProductImg.src = SmallImg[0].src
+    }
+    SmallImg[1].onclick = function(){
+        ProductImg.src = SmallImg[1].src
+    }
+    SmallImg[2].onclick = function(){
+        ProductImg.src = SmallImg[2].src
+    }
+    SmallImg[3].onclick = function(){
+        ProductImg.src = SmallImg[3].src
+    }
+</script>
+
+</body>
+
+</html>

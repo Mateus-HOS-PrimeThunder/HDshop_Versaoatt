@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HDShop</title>
+
+  <link rel="shortcut icon" href="./images/logo-page.png" type="image/x-icon">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <!-- bootstrap links -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- bootstrap links -->
+  <!-- fonts links -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- fonts links -->
+</head>
+
+<body>
+
+  <header class="header">
+    <nav class="nav container">
+      <div class="nav__data">
+        <a href="index.html" class="nav__logo">
+          <img src="images/hardshop.png" alt="">
+        </a>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-line nav__burger"></i>
+          <i class="ri-close-line nav__close"></i>
+        </div>
+      </div>
+
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li><a href="index.html" class="nav__link">Home</a></li>
+
+
+
+
+          <li class="dropdown__item">
+            <div class="nav__link">
+              Categoria <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+            </div>
+
+            <ul class="dropdown__menu">
+
+              <li class="dropdown__subitem">
+                <div class="dropdown__link">
+                  <i class="bi bi-motherboard"></i>Hardware<i class="ri-add-line dropdown__add"></i>
+                </div>
+
+                <ul class="dropdown__submenu">
+                  <li><a href="#" class="dropdown__sublink">Placa Mãe</a></li>
+                  <li><a href="#" class="dropdown__sublink">Placa de Vídeo</a></li>
+                  <li><a href="#" class="dropdown__sublink">Memória Ram</a></li>
+                  <li><a href="#" class="dropdown__sublink">SSD/HD</a></li>
+                  <li><a href="#" class="dropdown__sublink">Gabinete</a></li>
+                  <li><a href="#" class="dropdown__sublink">Resfriadores</a></li>
+                </ul>
+              </li>
+
+
+              <li class="dropdown__subitem">
+                <div class="dropdown__link">
+                  Periféricos<i class="ri-add-line dropdown__add"></i>
+                </div>
+
+                <ul class="dropdown__submenu">
+                  <li><a href="#" class="dropdown__sublink">Mouse</a></li>
+                  <li><a href="#" class="dropdown__sublink">Teclado</a></li>
+                  <li><a href="#" class="dropdown__sublink">Mouse Pad</a></li>
+                  <li><a href="#" class="dropdown__sublink">Monitor</a></li>
+                  <li><a href="#" class="dropdown__sublink">Microfone</a></li>
+                  <li><a href="#" class="dropdown__sublink">Headset</a></li>
+                </ul>
+              </li>
+
+
+              <li class="dropdown__subitem">
+                <div class="dropdown__link">
+                  Acessórios<i class="ri-add-line dropdown__add"></i>
+                </div>
+
+                <ul class="dropdown__submenu">
+                  <li><a href="#" class="dropdown__sublink">Cadeira</a></li>
+                  <li><a href="#" class="dropdown__sublink">Mesa</a></li>
+                  <li><a href="#" class="dropdown__sublink">Soporte</a></li>
+                  <li><a href="#" class="dropdown__sublink">Mouse Pad</a></li>
+                  <li><a href="#" class="dropdown__sublink">Cabos/Adaptadores</a></li>
+                  <li><a href="#" class="dropdown__sublink">Bags</a></li>
+                </ul>
+              </li>
+
+
+
+              <li class="dropdown__subitem">
+                <div class="dropdown__link">
+                  <i class="bi bi-laptop"></i>Notebook<i class="ri-add-line dropdown__add"></i>
+                </div>
+
+                <ul class="dropdown__submenu">
+                  <li><a href="#" class="dropdown__sublink">Dia a Dia</a></li>
+                  <li><a href="#" class="dropdown__sublink">Gamer</a></li>
+                  <li><a href="#" class="dropdown__sublink">Produtividade</a></li>
+                  <li><a href="#" class="dropdown__sublink">Para Trabalho</a></li>
+                  <li><a href="#" class="dropdown__sublink">Custo Benefício</a></li>
+                </ul>
+              </li>
+
+
+            </ul>
+          </li>
+
+
+
+
+          <li class="dropdown__item">
+            <div class="nav__link">
+              Conta <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+            </div>
+
+            <ul class="dropdown__menu">
+              <li>
+                <a href="login.html" class="dropdown__link">
+                  <i class="ri-user-line"></i> Login/Registre-se
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="dropdown__link">
+                  <i class="bi bi-bag"></i> Compras
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="dropdown__link">
+                  <i class="bi bi-gear"></i> Configurações
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li><a href="about.html" class="nav__link">Equipe</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- navbar -->
+
+
+
+
+
+
+
+
+  <!-- home content -->
+
+
+
+ <section class="section hero" style="background-image: url('images/banner-top1.png')">
+        <div class="container">
+
+          <h2 class="h1 hero-title">
+            PROMO GAMER <strong>Periféricos <span id="off">50% Off</span></strong>
+          </h2>
+
+         
+
+          <button class="button">
+            <span>Confira</span>
+
+            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+        </div>
+      </section>
+
+
+
+  <!-- home content -->
+
+
+
+
+
+
+
+
+  <!-- product cards -->
+  <div class="container" id="product-cards">
+<h1>OFERTAS</h1>
+    <div class="row" style="margin-top: 30px;">
+      <div class="col-md-3 py-3 py-md-0">
+        <a href="product-detail.html">
+        <div class="card">
+          <img src="./images/B550M.png" alt="">
+          <div class="card-body">
+            <h3 class="text-center">Placa Mae Gigabyte B550M Aorus Elite</h3>
+            <p class="text-center">Direto de: Pichau</p>
+            <div class="star text-center">
+              <i class="bi bi-star-fill checked"></i>
+              <i class="bi bi-star-fill checked"></i>
+              <!-- estrela cheia --> <i class="bi bi-star-fill checked"></i>
+              <!-- estrela pela metade --> <i class="bi bi-star-half checked"></i>
+              <!-- estrela vazia --><i class="bi bi-star checked"></i>
+            </div>
+            <h2>RR$746.99<span>
+                <li class="fa-solid fa-cart-shopping"></li>
+              </span></h2>
+          </div>
+        </div>
+        </a>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+         
+          <img src="./images/mause.png" alt="">
+          <div class="card-body">
+            <h3 class="text-center">Mouse Sem Fio Mx Master 3s</h3>
+            <p class="text-center">Direto de: Logitec</p>
+            <div class="star text-center">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            </div>
+            <h2>R$100 <span>
+                <li class="fa-solid fa-cart-shopping"></li>
+              </span></h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/F75.png" alt="">
+          <div class="card-body">
+            <h3 class="text-center">Teclado Mecânico Aula F75 </h3>
+            <p class="text-center">Direto de: Aula</p>
+            <div class="star text-center">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            </div>
+            <h2>R$200 <span>
+                <li class="fa-solid fa-cart-shopping"></li>
+              </span></h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/aspirador de po.png" alt="">
+          <div class="card-body">
+            <h3 class="text-center">Caixa de Som </h3>
+            <p class="text-center">Direto de: Amazon</p>
+            <div class="star text-center">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            </div>
+            <h2>R$300 <span>
+                <li class="fa-solid fa-cart-shopping"></li>
+              </span></h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" style="margin-top: 30px;">
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/gabinete.png" alt="">
+          <div class="card-body">
+            <h3 class="text-center">Gab. ROG Hyperion</h3>
+            <p class="text-center">Direto de: ROG</p>
+            <div class="star text-center">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            </div>
+            <h2>R$50.60 <span>
+                <li class="fa-solid fa-cart-shopping"></li>
+              </span></h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/microfone.png" alt="">
+          <div class="card-body">
+            <h3 class="text-center">Mic. Force One Hero</h3>
+            <p class="text-center">Direto de: Amazon</p>
+            <div class="star text-center">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            </div>
+            <h2>R$600 <span>
+                <li class="fa-solid fa-cart-shopping"></li>
+              </span></h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/mesa-de-som.png" alt="">
+          <div class="card-body">
+            <h3 class="text-center">Mesa de Som</h3>
+            <p class="text-center">Direto de: Pichau</p>
+            <div class="star text-center">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            </div>
+            <h2>R$430 <span>
+                <li class="fa-solid fa-cart-shopping"></li>
+              </span></h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/camera-de -segurança.png" alt="">
+          <div class="card-body">
+            <h3 class="text-center">Camera IP Hikvision</h3>
+            <p class="text-center">Direto de: Amazon</p>
+            <div class="star text-center">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            </div>
+            <h2>R$642 <span>
+                <li class="fa-solid fa-cart-shopping"></li>
+              </span></h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- product cards -->
+
+
+
+
+
+
+
+
+
+  <!-- other cards -->
+  <div class="container" id="other-cards">
+    <div class="row">
+      <div class="col-md-6 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/c1.png" alt="">
+          <div class="card-img-overlay">
+            <h3>Notebook Avell <br> Storm Go</h3>
+          <br>
+          <br>
+           
+            <button id="shopnow">Ver</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/c2.png" alt="">
+          <div class="card-img-overlay">
+            <h3>Fone de Ouvido <br> Headphone Pulse <br> FIT</h3>
+            <br>
+            <br>
+            <button id="shopnow">Ver</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- other cards -->
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+  <!-- product cards -->
+  <div class="container" id="product-cards">
+
+    <div class="row" style="margin-top: 30px;">
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/k500.png" alt="">
+          <div class="card-body">
+            <h3 class="text-center">Teclado k500</h3>
+            <p class="text-center">Direto de: Pichau</p>
+            <div class="star text-center">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            </div>
+            <h2>R$143.99 <span>
+                <li class="fa-solid fa-cart-shopping"></li>
+              </span></h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/F- Pcyes Shocker.png" alt="">
+          <div class="card-body">
+            <h3 class="text-center">Fonte Pcyes Shocker</h3>
+            <p class="text-center">Direto de: Pcyes</p>
+            <div class="star text-center">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            </div>
+            <h2>R$743 <span>
+                <li class="fa-solid fa-cart-shopping"></li>
+              </span></h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/Ajazz Aj199.png" alt="">
+          <div class="card-body">
+            <h3 class="text-center">Mouse Ajazz Aj199</h3>
+            <p class="text-center">Direto de: Ajazz</p>
+            <div class="star text-center">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            </div>
+            <h2>R$334.99 <span>
+                <li class="fa-solid fa-cart-shopping"></li>
+              </span></h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/AVELL-GO.png" alt="">
+          <div class="card-body">
+            <h3 class="text-center">Avell Strong Go</h3>
+            <p class="text-center">Direto de: Avell</p>
+            <div class="star text-center">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            </div>
+            <h2>R$9870 <span>
+                <li class="fa-solid fa-cart-shopping"></li>
+              </span></h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- other cards -->
+    <div class="container" id="other">
+      <div class="row">
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/c3.png" alt="">
+            <div class="card-img-overlay">
+          
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/c4.png" alt="">
+            <div class="card-img-overlay">
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/c5.png" alt="">
+            <div class="card-img-overlay">
+            
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- other cards -->
+
+
+
+
+    <div class="row" style="margin-top: 30px;">
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/EP84.png" alt="">
+          <div class="card-body">
+            <h3 class="text-center">Teclado EP-84</h3>
+            <p class="text-center">Direto de: Epomeker</p>
+            <div class="star text-center">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            </div>
+            <h2>R$507<span>
+                <li class="fa-solid fa-cart-shopping"></li>
+              </span></h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/C-COLIED.png" alt="">
+          <div class="card-body">
+            <h3 class="text-center">Cabo Coiled Usb-c </h3>
+            <p class="text-center">Direto de: Pichau</p>
+            <div class="star text-center">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            </div>
+            <h2>R$61 <span>
+                <li class="fa-solid fa-cart-shopping"></li>
+              </span></h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/pc-gamer.png" alt="">
+          <div class="card-body">
+            <h3 class="text-center">PC Montado Gamer</h3>
+            <p class="text-center">Direto de: Amazon</p>
+            <div class="star text-center">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            </div>
+            <h2>4890.60 <span>
+                <li class="fa-solid fa-cart-shopping"></li>
+              </span></h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/monitor.png" alt="">
+          <div class="card-body">
+            <h3 class="text-center">Monitor Pro-Player</h3>
+            <p class="text-center">Direto de: Pichau</p>
+            <div class="star text-center">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            </div>
+            <h2>R$950 <span>
+                <li class="fa-solid fa-cart-shopping"></li>
+              </span></h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="row" style="margin-top: 30px;">
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/cadeira-ergonomica.png" alt="">
+          <div class="card-body">
+            <h3 class="text-center">Cadeira Ergonômica</h3>
+            <p class="text-center">Direto de: X5-gamer</p>
+            <div class="star text-center">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            </div>
+            <h2>R$968<span>
+                <li class="fa-solid fa-cart-shopping"></li>
+              </span></h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/m-portatil.png" alt="">
+          <div class="card-body">
+            <h3 class="text-center">Monitor Portátil</h3>
+            <p class="text-center">Direto de: Kbum</p>
+            <div class="star text-center">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            </div>
+            <h2>R$670.50 <span>
+                <li class="fa-solid fa-cart-shopping"></li>
+              </span></h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/ryzen-9.png" alt="">
+          <div class="card-body">
+            <h3 class="text-center">Proces. AMD R99950X</h3>
+            <p class="text-center">Direto de: AMD</p>
+            <div class="star text-center">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            </div>
+            <h2>R$12656.50 <span>
+                <li class="fa-solid fa-cart-shopping"></li>
+              </span></h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/controle.png" alt="">
+          <div class="card-body">
+            <h3 class="text-center">Controle Sony PS5</h3>
+            <p class="text-center">Direto de: Kbum</p>
+            <div class="star text-center">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            </div>
+            <h2>R$150 <span>
+                <li class="fa-solid fa-cart-shopping"></li>
+              </span></h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- product cards -->
+
+
+
+
+
+
+
+
+
+  <!-- offer -->
+  <div class="container" id="offer">
+    <div class="row">
+    <!--   <div class="col-md-3 py-3 py-md-0">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <h3></h3>
+        <p>On order over R$1000</p>
+      </div> -->
+      <div class="col-md-4 py-3 py-md-0">
+        <i class="fa-solid fa-rotate-left"></i>
+        <h3>Devolução Imediata</h3>
+        <p>Em até 30 dias</p>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <i class="fa-solid fa-truck"></i>
+        <h3>Entrega Rápida</h3>
+        <p>Mundialmete</p>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <i class="fa-solid fa-thumbs-up"></i>
+        <h3>Melhor loja</h3>
+        <p>De Hardware</p>
+      </div>
+    </div>
+  </div>
+  <!-- offer -->
+
+
+
+
+
+
+  <!-- newslater -->
+  <div class="container" id="newslater">
+    <h3 class="text-center">Inscreva-se na loja eletrônica para obter as atualizações mais recentes.</h3>
+    <div class="input text-center">
+      <input type="text" placeholder="Entre com o seu Email..">
+      <button id="subscribe">Inscreva-se</button>
+    </div>
+  </div>
+  <!-- newslater -->
+
+
+
+
+
+
+  <!-- footer -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>HardShop</h3>
+            <p>
+             Mateus <br>
+              Miguel <br>
+              Stefany <br>
+            </p>
+            <strong>Phone:</strong> +000000000000000 <br>
+            <strong>Email:</strong> hardShop@gmail.com <br>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Links</h4>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="login.html">Login</a></li>
+              <li><a href="about.html">Equipe</a></li>
+              
+            </ul>
+          </div>
+
+
+
+
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Em Alta</h4>
+
+            <ul>
+              <li><a href="#">Gabinete</a></li>
+              <li><a href="#">Teclado</a></li>
+              <li><a href="#">Notebook Gamer</a></li>
+             
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Nossas Redes Sociais</h4>
+           
+
+            <div class="socail-links mt-3">
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-skype"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="container py-4">
+      <div class="copyright">
+        &copy; Copyright <strong><span>HardShop</span></strong>. Todos os direitos reservados
+      </div>
+      <div class="credits">
+        # <a href="#">Johson</a>
+        # <a href="#">Dionisio</a>
+      </div>
+    </div>
+  </footer>
+  <!-- footer -->
+
+
+
+
+
+
+
+  <a href="#" class="arrow"><i><img src="./images/arrow.png" alt=""></i></a>
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="assets/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

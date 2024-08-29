@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Direct Foods Product Page</title>
+
+  <link rel="shortcut icon" href="./images/logo-page.png" type="image/x-icon">
+
+  <!-- Bootstrap core CSS -->
+  <!-- <link href="bootstrap/css/bootstrap.css" rel="stylesheet" /> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- styles -->
+  <link rel="stylesheet" href="product.css" />
+  <link rel="stylesheet" href="style.css">
+ 
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;800&display=swap" rel="stylesheet" />
+
+
+</head>
+
+<body style="font-family: 'Montserrat', sans-serif;">
+  
+  
+  <header class="header">
+    <nav class="nav container">
+      <div class="nav__data">
+        <a href="index.html" class="nav__logo">
+          <img src="images/hardshop.png" alt="">
+        </a>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-line nav__burger"></i>
+          <i class="ri-close-line nav__close"></i>
+        </div>
+      </div>
+
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li><a href="index.html" class="nav__link">Home</a></li>
+
+
+
+
+          <li class="dropdown__item">
+            <div class="nav__link">
+              Categoria <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+            </div>
+
+            <ul class="dropdown__menu">
+
+              <li class="dropdown__subitem">
+                <div class="dropdown__link">
+                  <i class="bi bi-motherboard"></i>Hardware<i class="ri-add-line dropdown__add"></i>
+                </div>
+
+                <ul class="dropdown__submenu">
+                  <li><a href="#" class="dropdown__sublink">Placa Mãe</a></li>
+                  <li><a href="#" class="dropdown__sublink">Placa de Vídeo</a></li>
+                  <li><a href="#" class="dropdown__sublink">Memória Ram</a></li>
+                  <li><a href="#" class="dropdown__sublink">SSD/HD</a></li>
+                  <li><a href="#" class="dropdown__sublink">Gabinete</a></li>
+                  <li><a href="#" class="dropdown__sublink">Resfriadores</a></li>
+                </ul>
+              </li>
+
+
+              <li class="dropdown__subitem">
+                <div class="dropdown__link">
+                  Periféricos<i class="ri-add-line dropdown__add"></i>
+                </div>
+
+                <ul class="dropdown__submenu">
+                  <li><a href="#" class="dropdown__sublink">Mouse</a></li>
+                  <li><a href="#" class="dropdown__sublink">Teclado</a></li>
+                  <li><a href="#" class="dropdown__sublink">Mouse Pad</a></li>
+                  <li><a href="#" class="dropdown__sublink">Monitor</a></li>
+                  <li><a href="#" class="dropdown__sublink">Microfone</a></li>
+                  <li><a href="#" class="dropdown__sublink">Headset</a></li>
+                </ul>
+              </li>
+
+
+              <li class="dropdown__subitem">
+                <div class="dropdown__link">
+                  Acessórios<i class="ri-add-line dropdown__add"></i>
+                </div>
+
+                <ul class="dropdown__submenu">
+                  <li><a href="#" class="dropdown__sublink">Cadeira</a></li>
+                  <li><a href="#" class="dropdown__sublink">Mesa</a></li>
+                  <li><a href="#" class="dropdown__sublink">Soporte</a></li>
+                  <li><a href="#" class="dropdown__sublink">Mouse Pad</a></li>
+                  <li><a href="#" class="dropdown__sublink">Cabos/Adaptadores</a></li>
+                  <li><a href="#" class="dropdown__sublink">Bags</a></li>
+                </ul>
+              </li>
+
+
+
+              <li class="dropdown__subitem">
+                <div class="dropdown__link">
+                  <i class="bi bi-laptop"></i>Notebook<i class="ri-add-line dropdown__add"></i>
+                </div>
+
+                <ul class="dropdown__submenu">
+                  <li><a href="#" class="dropdown__sublink">Dia a Dia</a></li>
+                  <li><a href="#" class="dropdown__sublink">Gamer</a></li>
+                  <li><a href="#" class="dropdown__sublink">Produtividade</a></li>
+                  <li><a href="#" class="dropdown__sublink">Para Trabalho</a></li>
+                  <li><a href="#" class="dropdown__sublink">Custo Benefício</a></li>
+                </ul>
+              </li>
+
+
+            </ul>
+          </li>
+
+
+
+
+          <li class="dropdown__item">
+            <div class="nav__link">
+              Conta <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+            </div>
+
+            <ul class="dropdown__menu">
+              <li>
+                <a href="login.html" class="dropdown__link">
+                  <i class="ri-user-line"></i> Login/Registre-se
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="dropdown__link">
+                  <i class="bi bi-bag"></i> Compras
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="dropdown__link">
+                  <i class="bi bi-gear"></i> Configurações
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li><a href="about.html" class="nav__link">Equipe</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <br><br>
+  <div class="container">
+    <!-- PRODUCT DETAILS -->
+    <div class="row item-detail">
+      <div class="col-lg-6 col-md-2">
+        <!-- <img class="product-image" src="blueberries.jpg" /> -->
+
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/B550M.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/B550M2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/B550M3.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-md-4">
+        <h1 class="mt-0 product-title">
+          Placa Mae Gigabyte B550M Aorus Elite
+        </h1>
+        <p class="product-category">Placa Mãe</p>
+        <h4>Vendedor: <a href="">Pichau</a>
+          <span><i class="far fa-heart"></i>
+          </span>
+        </h4>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+        <span class="star-rating">4.3</span>
+        <span class="reviews-list"><a href="#">31 avaliações</a></span>
+
+
+
+        <p class="price" style="display: flex; justify-content: space-between;">
+          R$746.99
+          
+            <button type="button" class="button" style="width: 200px; ">
+              <li class="fa-solid fa-cart-shopping"></li>Adicionar ao carrinho
+            </button>
+          
+        </p>
+
+        <p class="free-shipping-qualifies">
+          <i class="fas fa-shipping-fast"></i> FRETE GRATIS
+        </p>
+
+        <h3 style="font-family: 'Montserrat', sans-serif; font-weight: 700;">
+          Descrição
+        </h3>
+        <p class="product-description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+          ut condimentum nibh. Maecenas dignissim, nunc sed pretium dignissim,
+          sapien augue viverra orci, vitae accumsan tellus sem a nulla.
+          Curabitur in tristique erat. Morbi vel tincidunt odio. Nulla nec sem
+          molestie, lacinia nibh ac, varius risus. In hac habitasse platea
+          dictumst. Etiam urna ante, consectetur id leo ut, consectetur semper
+          mauris.<br />
+        </p>
+
+        
+
+
+
+
+
+
+
+
+
+      </div>
+    </div>
+   
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+</html>
